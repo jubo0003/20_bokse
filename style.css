@@ -1,0 +1,273 @@
+/* ******************INDSTILLINGER For opgave 1-20*************** */
+/* ***************Det er herunder du skal rette:***************** */
+
+/*-------------------------------boks 1--------------------------------*/
+
+.box1 .content { color:#ffffff;
+  font-size: 1.6rem;
+  font-family:Arial, Helvetica, sans-serif;
+  text-shadow: magenta 5px 5px 10px; }
+  
+
+
+/*-------------------------------boks 2--------------------------------*/
+
+.box2 .content {
+  font-family:'Open Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+ 
+
+}
+
+/*-------------------------------boks 3--------------------------------*/
+
+.box3 .content { 
+  color: rgba(0, 142, 0, 0.991);
+  font-size: 1.4rem;
+   text-shadow: rgb(152, 214, 57) 2px 1px 2px;
+  text-indent: 18px;}
+
+
+
+.box3 .content p::first-letter { color: rgb(0, 102, 255); font-size: 3rem; 
+}
+
+/*-------------------------------boks 4--------------------------------*/
+
+.box4 .content {
+  color: red;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+/*-------------------------------boks 5--------------------------------*/
+
+@font-face {
+  /*Her har jeg skrevet @font-face koden for dig - i den næste opgave skal du selv skrive den*/
+  font-family: minFont;
+  src: url("elriolobo/elriott2-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.box5 .content {
+  font-family: minFont;
+  color: orange;
+  font-size: 4rem;
+}
+
+/*-------------------------------boks 6--------------------------------*/
+
+@font-face {
+  font-family: minAndenFont;
+  src: url("russiano/russiano-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.box6 .content {
+  font-family: minAndenFont;
+  color: rgba(202, 0, 0, 0.89);
+  font-size: 3rem;
+  
+}
+
+/*-------------------------------boks 7--------------------------------*/
+
+
+.krona-one-regular {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.box7 .content {
+  font-family: "Krona One", sans-serif;
+  color:rgb(1, 125, 213);
+  font-size: 2.6rem;
+}
+
+
+  
+
+/*-------------------------------boks 8--------------------------------*/
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.box8 .content {
+  color:rgb(158, 42, 221);
+  font-family: "Pacifico",cursive;
+  font-size:3.7rem;
+
+}
+
+/*-------------------------------boks 9--------------------------------*/
+
+.box9 .content {
+ background-color: rgb(217, 241, 181);
+ font-size: 1.1rem;
+ line-height: 25px;
+}
+
+/*-------------------------------boks 10--------------------------------*/
+
+.box10 .content {
+  font-size: 1.15rem;
+  letter-spacing: 0.1em; 
+  
+}
+
+/*-------------------------------boks 11--------------------------------*/
+
+.box11 .content a {
+  color: orangered;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+/*-------------------------------boks 12--------------------------------*/
+
+.box12 .content {
+ background-image: url(bg_images/himmel.jpeg);
+  background-size: 100%;
+  font-size: 2rem;
+  font-weight: 800;
+  color:rgb(177, 2, 2);
+}
+
+/*-------------------------------boks 13--------------------------------*/
+
+.box13 .content {
+  font-size: 3.9rem;
+  font-weight: 900;
+  color:transparent;
+
+  background-image: url(bg_images/himmel.jpeg);
+  background-size: 100%;
+  
+
+  background-clip: text;
+}
+
+/*-------------------------------boks 14--------------------------------*/
+
+.box14 .content {
+  background: linear-gradient(#f63cc1, #f7bb66, red);
+  font-size: 1.8rem;
+  font-style: italic;
+  color:#feffff;
+  text-align:right; 
+
+  
+}
+
+/*-------------------------------boks 15--------------------------------*/
+
+.box15 .content {
+  background-image: url(bg_images/blomst.png),linear-gradient(to left,#C6FFDD,#FBD786,#f7797d);
+
+  background-size: 25%,100%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  
+  font-size:1.3rem;
+  color:#ffffff;
+}
+
+/*-------------------------------boks 16--------------------------------*/
+
+.box16 .content {
+  
+  background:
+ repeating-radial-gradient(circle at 0 0, black, maroon, pink, white 40px)
+
+}
+
+/*-------------------------------boks 17--------------------------------*/
+
+.box17 .content {
+  /*Kode som flexer indholdet*/
+  display: flex;
+  justify-content: space-around;
+    background-image: url(bg_images/himmel.jpeg);
+    background-size: 100%;
+}
+
+/*Kunne gøres smartere, men så blev det lidt for besværligt for de studerende:*/
+
+.box17 .content .kvadrat1 {
+  /*Styling af de to bokse: width, height og border*/
+  width: 100px;
+  height: 100px;
+  border: 1px dashed magenta;
+
+  background-image: url(bg_images/blomst.png);
+background-size: contain;
+background-color:#FEDA42;
+  /*Baggrundsfarve*/
+}
+
+.box17 .content .kvadrat2 {
+  /*Styling af de to bokse: width, height og border*/
+  width: 100px;
+  height: 100px;
+  border: 1px dashed magenta;
+
+background-image: url(bg_images/blomst.png);
+background-size: contain;
+background-color:rgba(254, 220, 66, 0.549);
+
+  /*Baggrundsfarve*/
+}
+
+/*-------------------------------boks 18--------------------------------*/
+
+.box18 .content {
+ 
+  display: flex;
+  justify-content: center;
+  background-image: url(bg_images/blue.jpeg);
+  background-size: cover;
+}
+
+.box18 .content .kvadrat {
+  /*Styling af boksen: width & height*/
+   width: 100px;
+  height: 100px;
+
+
+ background-image: url(bg_images/blomst.png);
+background-size: contain;
+filter:sepia(100%)
+  /*Brug filter så blomsten får en sepia toning*/
+}
+
+/*-------------------------------boks 19--------------------------------*/
+.box19 .content {
+background-image: url(bg_images/pink.jpg);
+font-family: "Pacifico", cursive;
+font-size: 1.6rem;
+color:#C6FFDD;
+
+
+
+}
+/*-------------------------------boks 20--------------------------------*/
+
+.box20 .content {
+
+  background-image: url(https://plus.unsplash.com/premium_photo-1755155931545-87b694f49769?q=80&w=1412&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size:cover;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1.7rem;
+  letter-spacing: 0.05em; 
+  color:antiquewhite;
+  
+  
+
+}
